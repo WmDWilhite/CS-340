@@ -1,2 +1,13 @@
 # CS-340
-Client/Server Development
+Client/Server Development  
+1. How do you write programs that are maintainable, readable, and adaptable?  
+
+Writing maintainable, readable, and adaptable programs requires clear structure, modular design, and consistent coding practices. In Project One, the CRUD Python module demonstrated this by separating database operations into dedicated methods—create(), read(), update(), and delete(). This approach made the module easy to understand and reuse, and it allowed the dashboard in Project Two to connect to the database without rewriting any database logic. The advantage of working this way is that changes to the database layer only need to be made in one place, and the rest of the application automatically benefits. This CRUD module could be reused in future projects that require database access, expanded to support new collections, or adapted to work with different front‑end interfaces without changing its core structure.  
+
+2. How do you approach a problem as a computer scientist?  
+
+As a computer scientist, I approach problems by breaking them down into smaller, manageable components and identifying the requirements before writing any code. For this project, I analyzed Grazioso Salvare’s needs and translated them into database queries, dashboard filters, and visual components. This approach differed from earlier coursework because it required integrating multiple systems—MongoDB, Python, Dash, and the CRUD module—into a single functional application. Instead of solving isolated coding tasks, I had to think about how data flows through the entire system. In future projects, I would continue using this structured approach by gathering requirements, designing the data model first, and then building interfaces that interact cleanly with the database. This ensures that the final product meets client needs and remains scalable.  
+
+3. What do computer scientists do, and why does it matter?  
+
+Computer scientists design systems that solve real‑world problems through data, automation, and software. This work matters because organizations rely on accurate information and efficient tools to make decisions. In the case of Grazioso Salvare, the dashboard I built helps the company quickly identify dogs that meet specific rescue‑training criteria, saving time and improving accuracy. Instead of manually searching through thousands of records, they can use filters, charts, and maps to make informed decisions instantly. Projects like this demonstrate how computer science supports organizations by transforming raw data into meaningful insights that directly improve their operations.   
